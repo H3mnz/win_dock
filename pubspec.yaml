@@ -1,0 +1,45 @@
+name: win_dock
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  
+  
+  windows_storage:
+  windows_ui:
+  windows_foundation:
+  windows_system:
+  # flutter_platform_alert: ^0.5.1
+  
+  window_manager: 
+  screen_retriever: 
+  drag_and_drop_windows: ^0.0.3
+  path:
+  animate_do:
+  flutter_desktop_context_menu: ^0.2.0
+  win32:
+  ffi:
+  hive_flutter: 
+  hive: 
+  launch_at_startup: 
+  package_info_plus:
+
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: 
+  hive_generator: 
+
+flutter:
+  uses-material-design: true
